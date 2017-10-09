@@ -6,45 +6,36 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <title>Index 2</title>
+  <title>Index 3</title>
 </head>
 
 <body>
 
 <div class="container-fluid" >
-  <div class="hidden-sm hidden-xs col-md-2" id="nav">
-      
-    <img src="https://www.serebii.net/shuffle/pokemon/135.png" alt="pika" />
-    <ul class="nav nav-pills nav-stacked" data-spy="affix" role="tablist">
-      <li><a href="#" class="active">Home</a></li>
-      <li><a href="#">HTML</a></li>
-      <li><a href="#">CSS</a></li>
-      <li><a href="#">About</a></li>        
-    </ul>
-  
-  </div>
-  <div class="hidden-md hidden-lg">
-    <nav class="navbar navbar-inverse">
+  <div class="row">
+  <div class="col-sm-3" id="navNew">
+    <div class="sidebar-nav">
+      <div class="navbar navbar-default" role="navigation">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-            <span class="icon-bar"></span> 
+            <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">WebSiteName</a>
+          <span class="visible-xs navbar-brand">Sidebar menu</span>
         </div>
-        <div class=" navbar-collapse collapse" id="myNavbar">
+        <div class="navbar-collapse collapse sidebar-navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">CSS</a></li>
-            <li><a href="#">About</a></li> 
+            <li class="active"><a href="#">Menu Item 1</a></li>
+            <li><a href="#">Menu Item 2</a></li>
+            <li><a href="#">Menu Item 4</a></li>
           </ul>
-        </div>
-    </nav>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
   </div>
-  <div class="col-md-10 col-md-offset-2">
+  <div class="col-sm-9">
     <h1>My First Bootstrap Page</h1>
     <p>What is Lorem Ipsum?
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -68,6 +59,7 @@
     a<P>
     a<P>
   </div>
+</div>
 </div>
 </body>
 </html>
