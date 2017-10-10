@@ -10,6 +10,19 @@ body, div {
   background-color: transparent;
 }
 
+@media (min-width: 767px) {
+  .bottom-footer {
+  background-color: #f5f5f5;
+  vertical-align: middle;
+  padding: 10px;
+  bottom: 0px;
+  width: 100%;
+  position: absolute;
+  height: 100px;
+  color: grey;
+}
+}
+
 #events {
   content: "";
   background: url(../images/music_bg.jpg);
@@ -29,7 +42,7 @@ background-size: cover;
 .info {
   background-color: white;
   margin-bottom: 20px;
-  padding: 20px;
+  padding: 30px;
 }
 .navbar-collapse {
   padding-right: 15px;
