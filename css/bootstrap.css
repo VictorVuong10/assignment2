@@ -27,9 +27,7 @@ background-size: cover;
 }
 
 .info {
-  width: 70%;
-  background-color: grey;
-  margin: 0 auto;
+  background-color: white;
   margin-bottom: 20px;
   padding: 20px;
 }
