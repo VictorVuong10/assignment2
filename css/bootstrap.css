@@ -44,7 +44,9 @@ hr.style-one {
 }
 
 .info img {
-  -webkit-filter: grayscale(80%);
+  -webkit-filter: contrast(60%);
+  /*-webkit-filter: grayscale(80%);*/
+
 }
 .info {
   background-color: white;
