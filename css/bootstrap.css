@@ -78,11 +78,18 @@ hr.style-one {
   white-space: nowrap;
   overflow: hidden;
 }
+
+#sidebar-nav img {
+  display: block;
+  margin: 0 auto;
+}
+
 #sidebar-nav {
   text-align: left;
-  margin-top: 75px;
+  margin-top: 10px;
   width: 150px;
 }
+
 #content {
   padding-left: 150px;
   text-align: center;
