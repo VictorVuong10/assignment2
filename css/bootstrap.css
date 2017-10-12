@@ -27,6 +27,39 @@ hr.style-one {
   color: grey;
 }
 
+#apply {
+  content: "";
+  background: url(../images/apply.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-filter: grayscale(25%);
+  background-size: cover;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;   
+}
+
+#menu {
+  content: "";
+  background: url(../images/menupic.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;   
+}
+
 #events {
   content: "";
   background: url(../images/music_bg.jpg);
@@ -113,6 +146,15 @@ html {
 body {
   margin: 0;
 }
+
+.right {
+    text-align: right;
+}
+
+#comment {
+    resize: none;
+}
+
 article,
 aside,
 details,
