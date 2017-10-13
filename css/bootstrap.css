@@ -28,10 +28,14 @@ footer a:hover {
   text-decoration: none;
 }
 
+<<<<<<< Updated upstream
 #banner {
   display:block;
   margin: 0 auto 20px;
 }
+=======
+
+>>>>>>> Stashed changes
 .container-fluid {
   min-height: 100%;
   height: auto !important;
@@ -46,10 +50,15 @@ footer a:hover {
   width: 100%;
   height: 30px;
   color: white;
+<<<<<<< Updated upstream
   opacity: 1;
+=======
+  opacity: 1.0;
+>>>>>>> Stashed changes
   text-align: center;
   font-weight: 100;
   vertical-align: center;
+    /*text-shadow: 0px 1px #000000;*/
 }
 
 hr.style-one {
@@ -82,7 +91,7 @@ hr.style-one {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  -webkit-filter: grayscale(25%);
+  /*-webkit-filter: grayscale(25%);*/
   background-size: cover;
   opacity: 0.4;
   top: 0;
@@ -91,6 +100,10 @@ hr.style-one {
   right: 0;
   position: fixed;
   z-index: -1;   
+}
+
+.input-small { 
+    width: 100px;
 }
 
 #menu {
@@ -211,6 +224,14 @@ hr.style-one {
   }
 }
 
+.right {
+    text-align: right;
+}
+
+#comment {
+    resize: none;
+}
+
 /*Personal touches end here*/
 html {
   font-family: sans-serif;
@@ -221,13 +242,6 @@ body {
   margin: 0;
 }
 
-.right {
-    text-align: right;
-}
-
-#comment {
-    resize: none;
-}
 
 article,
 aside,
