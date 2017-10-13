@@ -86,9 +86,9 @@ hr.style-one {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  /*-webkit-filter: grayscale(25%);*/
+  -webkit-filter: grayscale(25%);
   background-size: cover;
-  opacity: 0.4;
+  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
