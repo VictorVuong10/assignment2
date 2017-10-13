@@ -44,6 +44,10 @@ hr.style-one {
   z-index: -1;   
 }
 
+.input-small { 
+    width: 100px;
+}
+
 #menu {
   content: "";
   background: url(../images/menupic.jpg);
@@ -154,6 +158,14 @@ hr.style-one {
   }
 }
 
+.right {
+    text-align: right;
+}
+
+#comment {
+    resize: none;
+}
+
 /*Personal touches end here*/
 html {
   font-family: sans-serif;
@@ -164,13 +176,6 @@ body {
   margin: 0;
 }
 
-.right {
-    text-align: right;
-}
-
-#comment {
-    resize: none;
-}
 
 article,
 aside,
